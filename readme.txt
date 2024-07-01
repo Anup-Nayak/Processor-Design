@@ -43,4 +43,3 @@ Here's a simple example of how to use the processor design:
 3. Run the simulation and observe the output on the data memory and registers.
 
 
-
