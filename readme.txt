@@ -1,0 +1,1 @@
+The alu.circ must be added as logisim library in processor_4.circ .
