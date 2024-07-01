@@ -12,17 +12,18 @@ This project involves designing a 32-bit single-cycle processor using Logisim-ev
 
 2. **Register File**:
     - Contains nine specified registers, ensuring proper read/write operations.
-    - Maintains the zero register constraint and integrates it into the processor design for accurate instruction execution.
+    - Maintains the zero register constraint and integrates into the processor design for accurate instruction execution.
 
 3. **Control Unit**:
     - Manages the execution of instructions.
     - Coordinates the ALU, Register File, and memory operations to ensure correct operation sequencing and data flow.
 
+## Usage
+
 ### Simulation
 
 The alu.circ must be added as a logisim library in processor_4.circ.
-
-To simulate the design, open the `processor.circ` file in Logisim-evolution. Use the built-in tools to step through the execution of instructions and observe the behaviour of the processor components.
+To simulate the design, open the `processor.circ` file in Logisim-evolution. Use the built-in tools to step through the execution of instructions and observe the behavior of the processor components.
 
 ### Testing
 
@@ -41,5 +42,4 @@ Here's a simple example of how to use the processor design:
 1. Load the `processor.circ` file in Logisim-evolution.
 2. Enter a program in the instruction memory.
 3. Run the simulation and observe the output on the data memory and registers.
-
 
